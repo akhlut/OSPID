@@ -1,0 +1,763 @@
+(PCB "Z:/Eagle Projects/OpenSpindle/OpenSpindle BASE.brd"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad CadSoft)
+    (host_version 'EAGLE Version 6.3.0 Copyright (c) 1988-2012 CadSoft')
+  )
+  (resolution inch 254000)
+  (unit inch)
+  (structure
+    (layer "1#Top"  (type signal))
+    (layer "16#Bottom"  (type signal))
+    (boundary 
+      (rect pcb  0.000000 0.000000 4.000000 3.150000)
+    )
+    (boundary (path signal 0 0.000000 0.000000 4.000000 0.000000))
+    (boundary (path signal 0 4.000000 0.000000 4.000000 3.150000))
+    (boundary (path signal 0 4.000000 3.150000 0.000000 3.150000))
+    (boundary (path signal 0 0.000000 3.150000 0.000000 0.000000))
+    (via
+       "Round1$0.024000"
+    )
+    (rule (width 0.010000)(clearance 0.008000))
+    (control
+      (via_at_smd on)
+    )
+  )
+  (placement
+    (place_control (flip_style rotate_first))
+    (component "DIODEBRIDGE$connectors" 
+      (place "BR41" 3.150000 2.300000 Front 180.000000)
+    )
+    (component "CPOL-RADIAL-10UF-25V$SparkFun" 
+      (place "C1" 0.950000 1.400000 Front 180.000000)
+    )
+    (component "CPOL-RADIAL-10UF-25V$SparkFun" 
+      (place "C2" 0.600000 1.400000 Front 0.000000)
+    )
+    (component "CAP-PTH-SMALL$SparkFun-Capacitors" 
+      (place "C3" 3.550000 1.000000 Front 180.000000)
+    )
+    (component "CAP-PTH-SMALL$SparkFun-Capacitors" 
+      (place "C4" 2.250000 0.450000 Front 180.000000)
+    )
+    (component "CAP-PTH-SMALL$SparkFun-Capacitors" 
+      (place "C5" 2.300000 1.000000 Front 90.000000)
+    )
+    (component "CAP-PTH-SMALL$SparkFun-Capacitors" 
+      (place "C6" 2.200000 1.250000 Front 180.000000)
+    )
+    (component "CAP-PTH-SMALL$SparkFun-Capacitors" 
+      (place "C7" 1.900000 1.250000 Front 180.000000)
+    )
+    (component "CAP-PTH-SMALL$SparkFun" 
+      (place "C8" 1.300000 2.550000 Front 270.000000)
+    )
+    (component "DIODE-1N4001$SparkFun-DiscreteSemi" 
+      (place "D1" 1.150000 1.200000 Front 90.000000)
+    )
+    (component "DIODE-1N4001$SparkFun-DiscreteSemi" 
+      (place "D2" 2.700000 1.150000 Front 180.000000)
+    )
+    (component "DIODE-1N4001$SparkFun-DiscreteSemi" 
+      (place "D3" 0.450000 0.750000 Front 90.000000)
+    )
+    (component "6PINHEADER$connectors" 
+      (place "FTDI" 0.200000 0.700000 Front 90.000000)
+    )
+    (component "3,6-PAD$holes" 
+      (place "H5" 0.175000 0.175000 Front 0.000000)
+    )
+    (component "3,6-PAD$holes" 
+      (place "H6" 0.175000 2.975000 Front 0.000000)
+    )
+    (component "3,6-PAD$holes" 
+      (place "H7" 3.825000 2.975000 Front 0.000000)
+    )
+    (component "3,6-PAD$holes" 
+      (place "H8" 3.830000 0.175000 Front 0.000000)
+    )
+    (component "TO-220-ALT$SparkFun-PowerIC" 
+      (place "IC1" 0.770000 1.000000 Front 180.000000)
+    )
+    (component "POWER_JACK_PTH_LOCK$SparkFun-Connectors" 
+      (place "J1" -0.125000 1.335000 Front 270.000000)
+    )
+    (component "1X06_LOCK$SparkFun-Connectors" 
+      (place "JP1" 2.950000 1.000000 Front 180.000000)
+    )
+    (component "1X04_LOCK$SparkFun-Connectors" 
+      (place "JP2" 1.650000 1.000000 Front 180.000000)
+    )
+    (component "1X05_LOCK$SparkFun-Connectors" 
+      (place "JP3" 1.550000 0.400000 Front 0.000000)
+    )
+    (component "2X03$SparkFun-Connectors" 
+      (place "JP4" 1.200000 0.750000 Front 90.000000)
+    )
+    (component "1X06_LOCK$SparkFun-Connectors" 
+      (place "JP5" 2.350000 0.400000 Front 0.000000)
+    )
+    (component "1X02_LOCK$SparkFun-Connectors" 
+      (place "JP6" 2.450000 1.550000 Front 0.000000)
+    )
+    (component "1X02_LOCK$SparkFun-Connectors" 
+      (place "JP7" 1.850000 1.550000 Front 0.000000)
+    )
+    (component "1X02_LOCK$SparkFun-Connectors" 
+      (place "JP8" 1.450000 0.100000 Front 0.000000)
+    )
+    (component "1X02_LOCK$SparkFun-Connectors" 
+      (place "JP9" 1.700000 0.100000 Front 0.000000)
+    )
+    (component "1X02_LOCK$SparkFun-Connectors" 
+      (place "JP10" 3.050000 0.100000 Front 0.000000)
+    )
+    (component "LED5MM$adafruit2012" 
+      (place "LED1" 3.850000 1.300000 Front 270.000000)
+    )
+    (component "LED5MM$SparkFun-LED" 
+      (place "LED2" 3.455000 2.800000 Front 180.000000)
+    )
+    (component "LED5MM$adafruit2012" 
+      (place "LED3" 3.500000 0.150000 Front 90.000000)
+    )
+    (component "AK500/4$con-ptr500" 
+      (place "MAINS1" 3.850000 2.400000 Front 90.000000)
+    )
+    (component "AXIAL-0.3$SparkFun-Resistors" 
+      (place "R1" 3.500000 1.400000 Front 180.000000)
+    )
+    (component "AXIAL-0.3$SparkFun-Resistors" 
+      (place "R2" 2.700000 1.240000 Front 0.000000)
+    )
+    (component "AXIAL-0.3$SparkFun-Resistors" 
+      (place "R3" 2.000000 0.950000 Front 0.000000)
+    )
+    (component "AXIAL-0.3$SparkFun-Resistors" 
+      (place "R4" 1.200000 2.500000 Front 270.000000)
+    )
+    (component "AXIAL-0.3$SparkFun-Resistors" 
+      (place "R5" 1.400000 2.500000 Front 90.000000)
+    )
+    (component "AXIAL-0.3$SparkFun-Resistors" 
+      (place "R6" 1.800000 1.900000 Front 0.000000)
+    )
+    (component "SQM_5-10$SparkFun-Resistors" 
+      (place "R7" 2.500000 2.800000 Front 180.000000)
+    )
+    (component "SQM_5-10$SparkFun-Resistors" 
+      (place "R8" 3.050000 2.800000 Front 180.000000)
+    )
+    (component "AXIAL-0.3$SparkFun-Resistors" 
+      (place "R9" 2.400000 1.900000 Front 180.000000)
+    )
+    (component "AXIAL-0.3$SparkFun-Resistors" 
+      (place "R10" 0.700000 0.350000 Front 180.000000)
+    )
+    (component "AXIAL-0.3$SparkFun-Resistors" 
+      (place "R13" 1.200000 0.550000 Front 0.000000)
+    )
+    (component "AXIAL-0.3$SparkFun-Resistors" 
+      (place "R14" 1.200000 0.450000 Front 0.000000)
+    )
+    (component "AXIAL-0.3$SparkFun-Resistors" 
+      (place "R15" 3.400000 0.350000 Front 180.000000)
+    )
+    (component "AXIAL-0.3$SparkFun-Resistors" 
+      (place "R16" 3.400000 0.450000 Front 0.000000)
+    )
+    (component "TRIMPOT_PTH_S3_LOCK$SparkFun-Electromechanical" 
+      (place "R17" 3.450000 1.200000 Front 0.000000)
+    )
+    (component "TACTILE-PTH$SparkFun-Electromechanical" 
+      (place "S1" 3.050000 0.700000 Front 90.000000)
+    )
+    (component "AK500/4$con-ptr500" 
+      (place "SENSOR" 3.850000 0.750000 Front 90.000000)
+    )
+    (component "AK500/3$con-ptr500" 
+      (place "SPEED" 0.650000 0.150000 Front 0.000000)
+    )
+    (component "AK500/2$con-ptr500" 
+      (place "SPINDLE" 1.150000 0.150000 Front 0.000000)
+    )
+    (component "DIP08$SparkFun-AnalogIC" 
+      (place "U$1" 3.400000 0.750000 Front 90.000000)
+    )
+    (component "529802B02500G$OSPID" 
+      (place "U$2" 1.350000 3.000000 Front 0.000000)
+    )
+    (component "DIL28-3$SparkFun-DigitalIC" 
+      (place "U1" 2.200000 0.700000 Front 180.000000)
+    )
+    (component "DIL06$optocoupler" 
+      (place "U2" 1.750000 2.200000 Front 0.000000)
+    )
+    (component "TRIAC$connectors" 
+      (place "U3" 1.350000 2.845000 Front 180.000000)
+    )
+    (component "DO35-10$diode" 
+      (place "U4" 1.500000 2.500000 Front 90.000000)
+    )
+    (component "DIL04$optocoupler" 
+      (place "U5" 2.500000 2.200000 Front 180.000000)
+    )
+    (component "HC49U-V$SparkFun-FreqCtrl" 
+      (place "Y1" 2.000000 1.100000 Front 0.000000)
+    )
+  )
+  (library
+    (image "529802B02500G$OSPID"
+      (pin "Round2" "P$1" 0.500000 0.000000)
+      (pin "Round2" "P$2" -0.500000 0.000000)
+    )
+    (image "CAP-PTH-SMALL$SparkFun"
+      (pin "Round3" "1" 0.000000 0.000000)
+      (pin "Round3" "2" 0.100000 0.000000)
+    )
+    (image "CPOL-RADIAL-10UF-25V$SparkFun"
+      (outline(circ "1#Top" 0.196850 0.000000 0.000000))
+      (pin "Square1" "1" 0.050000 0.000000)
+      (pin "Round3" "2" -0.050000 0.000000)
+    )
+    (image "DIP08$SparkFun-AnalogIC"
+      (outline(circ "1#Top" 0.056567 -0.150000 -0.050000))
+      (pin "Octagon1" "1" -0.150000 -0.150000)
+      (pin "Octagon1" "2" -0.050000 -0.150000)
+      (pin "Octagon1" "3" 0.050000 -0.150000)
+      (pin "Octagon1" "4" 0.150000 -0.150000)
+      (pin "Octagon1" "5" 0.150000 0.150000)
+      (pin "Octagon1" "6" 0.050000 0.150000)
+      (pin "Octagon1" "7" -0.050000 0.150000)
+      (pin "Octagon1" "8" -0.150000 0.150000)
+    )
+    (image "CAP-PTH-SMALL$SparkFun-Capacitors"
+      (pin "Round3" "1" 0.000000 0.000000)
+      (pin "Round3" "2" 0.100000 0.000000)
+    )
+    (image "1X02_LOCK$SparkFun-Connectors"
+      (pin "Round4" "1" -0.007000 0.000000)
+      (pin "Round4" "2" 0.107000 0.000000)
+    )
+    (image "1X04_LOCK$SparkFun-Connectors"
+      (pin "Square2" "1" 0.000000 0.005000)
+      (pin "Round4" "2" 0.100000 -0.005000)
+      (pin "Round4" "3" 0.200000 0.005000)
+      (pin "Round4" "4" 0.300000 -0.005000)
+    )
+    (image "1X05_LOCK$SparkFun-Connectors"
+      (pin "Round4" "1" 0.000000 0.005000)
+      (pin "Round4" "2" 0.100000 -0.005000)
+      (pin "Round4" "3" 0.200000 0.005000)
+      (pin "Round4" "4" 0.300000 -0.005000)
+      (pin "Round4" "5" 0.400000 0.005000)
+    )
+    (image "1X06_LOCK$SparkFun-Connectors"
+      (pin "Round5" "1" 0.000000 0.000000)
+      (pin "Round5" "2" 0.100000 -0.010000)
+      (pin "Round5" "3" 0.200000 0.000000)
+      (pin "Round5" "4" 0.300000 -0.010000)
+      (pin "Round5" "5" 0.400000 0.000000)
+      (pin "Round5" "6" 0.500000 -0.010000)
+    )
+    (image "2X03$SparkFun-Connectors"
+      (pin "Octagon2" "1" -0.100000 -0.050000)
+      (pin "Octagon2" "2" -0.100000 0.050000)
+      (pin "Octagon2" "3" 0.000000 -0.050000)
+      (pin "Octagon2" "4" 0.000000 0.050000)
+      (pin "Octagon2" "5" 0.100000 -0.050000)
+      (pin "Octagon2" "6" 0.100000 0.050000)
+    )
+    (image "POWER_JACK_PTH_LOCK$SparkFun-Connectors"
+      (pin "Round6" "GND" 0.001000 0.258150)
+      (pin "Round7" "GNDBREAK" 0.148094 0.421260)
+      (pin "Round8" "PWR" 0.000000 0.546370)
+    )
+    (image "DIL28-3$SparkFun-DigitalIC"
+      (pin "Oblong1" "1" -0.650000 -0.150000)
+      (pin "Oblong1" "2" -0.550000 -0.150000)
+      (pin "Oblong1" "3" -0.450000 -0.150000)
+      (pin "Oblong1" "4" -0.350000 -0.150000)
+      (pin "Oblong1" "5" -0.250000 -0.150000)
+      (pin "Oblong1" "6" -0.150000 -0.150000)
+      (pin "Oblong1" "7" -0.050000 -0.150000)
+      (pin "Oblong1" "8" 0.050000 -0.150000)
+      (pin "Oblong1" "9" 0.150000 -0.150000)
+      (pin "Oblong1" "10" 0.250000 -0.150000)
+      (pin "Oblong1" "11" 0.350000 -0.150000)
+      (pin "Oblong1" "12" 0.450000 -0.150000)
+      (pin "Oblong1" "13" 0.550000 -0.150000)
+      (pin "Oblong1" "14" 0.650000 -0.150000)
+      (pin "Oblong1" "15" 0.650000 0.150000)
+      (pin "Oblong1" "16" 0.550000 0.150000)
+      (pin "Oblong1" "17" 0.450000 0.150000)
+      (pin "Oblong1" "18" 0.350000 0.150000)
+      (pin "Oblong1" "19" 0.250000 0.150000)
+      (pin "Oblong1" "20" 0.150000 0.150000)
+      (pin "Oblong1" "21" 0.050000 0.150000)
+      (pin "Oblong1" "22" -0.050000 0.150000)
+      (pin "Oblong1" "23" -0.150000 0.150000)
+      (pin "Oblong1" "24" -0.250000 0.150000)
+      (pin "Oblong1" "25" -0.350000 0.150000)
+      (pin "Oblong1" "26" -0.450000 0.150000)
+      (pin "Oblong1" "27" -0.550000 0.150000)
+      (pin "Oblong1" "28" -0.650000 0.150000)
+    )
+    (image "DIODE-1N4001$SparkFun-DiscreteSemi"
+      (pin "Round9" "A" -0.200000 0.000000)
+      (pin "Round9" "C" 0.200000 0.000000)
+    )
+    (image "TACTILE-PTH$SparkFun-Electromechanical"
+      (outline(circ "1#Top" 0.140000 0.000000 0.000000))
+      (pin "Round5" "1" -0.128000 0.089000)
+      (pin "Round5" "2" 0.128000 0.089000)
+      (pin "Round5" "3" -0.128000 -0.089000)
+      (pin "Round5" "4" 0.128000 -0.089000)
+    )
+    (image "TRIMPOT_PTH_S3_LOCK$SparkFun-Electromechanical"
+      (outline(circ "1#Top" 0.011661 0.124000 0.102000))
+      (pin "Square3" "1" -0.106000 -0.012000)
+      (pin "Round10" "2" 0.000000 -0.012000)
+      (pin "Round10" "3" 0.106000 -0.012000)
+    )
+    (image "HC49U-V$SparkFun-FreqCtrl"
+      (via_keepout(rect signal -0.150000 -0.110000 0.150000 0.110000))
+      (via_keepout(rect signal -0.170000 -0.100000 -0.150000 0.100000))
+      (via_keepout(rect signal -0.190000 -0.090000 -0.170000 0.090000))
+      (via_keepout(rect signal -0.210000 -0.070000 -0.190000 0.070000))
+      (via_keepout(rect signal -0.220000 -0.050000 -0.210000 0.040000))
+      (via_keepout(rect signal 0.150000 -0.100000 0.170000 0.100000))
+      (via_keepout(rect signal 0.170000 -0.090000 0.190000 0.090000))
+      (via_keepout(rect signal 0.190000 -0.070000 0.210000 0.070000))
+      (via_keepout(rect signal 0.210000 -0.040000 0.220000 0.040000))
+      (pin "Round11" "1" -0.095000 0.000000)
+      (pin "Round11" "2" 0.095000 0.000000)
+    )
+    (image "LED5MM$SparkFun-LED"
+      (outline(circ "1#Top" 0.200000 0.000000 0.000000))
+      (pin "Round12" "A" -0.050000 0.000000)
+      (pin "Round12" "K" 0.050000 0.000000)
+    )
+    (image "TO-220-ALT$SparkFun-PowerIC"
+      (outline(circ "1#Top" 0.142000 0.000000 0.440000))
+      (outline(rect "1#Top" 0.075000 -0.085000 0.125000 -0.050000))
+      (outline(rect "1#Top" -0.025000 -0.085000 0.025000 -0.050000))
+      (outline(rect "1#Top" -0.125000 -0.085000 -0.075000 -0.050000))
+      (wire_keepout(circ "16#Bottom" 0.240000 0.000000 0.440000))
+      (via_keepout(circ signal 0.240000 0.000000 0.440000))
+      (keepout (circ signal 0.138000 0.000000 0.440000))
+      (pin "Oblong2" "GND" 0.000000 -0.150000)
+      (pin "Oblong2" "IN" -0.100000 -0.150000)
+      (pin "Oblong2" "OUT" 0.100000 -0.150000)
+    )
+    (image "AXIAL-0.3$SparkFun-Resistors"
+      (pin "Round13" "P$1" -0.150000 0.000000)
+      (pin "Round13" "P$2" 0.150000 0.000000)
+    )
+    (image "SQM_5-10$SparkFun-Resistors"
+      (pin "Square4" "P1" -0.100000 0.000000)
+      (pin "Square4" "P2" 0.100000 0.000000)
+    )
+    (image "LED5MM$adafruit2012"
+      (outline(circ "1#Top" 0.200000 0.000000 0.000000))
+      (pin "Octagon3" "A" -0.050000 0.000000)
+      (pin "Octagon3" "K" 0.050000 0.000000)
+    )
+    (image "AK500/2$con-ptr500"
+      (outline(circ "1#Top" 0.040000 0.099000 0.120000))
+      (outline(circ "1#Top" 0.040000 -0.099000 0.120000))
+      (outline(rect "1#Top" -0.015000 -0.075000 0.015000 0.075000))
+      (pin "Oblong3" "1" -0.099000 0.000000)
+      (pin "Oblong3" "2" 0.099000 0.000000)
+    )
+    (image "AK500/3$con-ptr500"
+      (outline(circ "1#Top" 0.040000 0.000000 0.120000))
+      (outline(circ "1#Top" 0.040000 -0.197000 0.120000))
+      (outline(circ "1#Top" 0.040000 0.197000 0.120000))
+      (outline(rect "1#Top" -0.114000 -0.075000 -0.084000 0.075000))
+      (outline(rect "1#Top" 0.084000 -0.075000 0.114000 0.075000))
+      (pin "Oblong3" "1" -0.197000 0.000000)
+      (pin "Oblong3" "2" 0.000000 0.000000)
+      (pin "Oblong3" "3" 0.197000 0.000000)
+    )
+    (image "AK500/4$con-ptr500"
+      (outline(circ "1#Top" 0.040000 -0.098000 0.120000))
+      (outline(circ "1#Top" 0.040000 -0.296000 0.120000))
+      (outline(circ "1#Top" 0.040000 0.296000 0.120000))
+      (outline(circ "1#Top" 0.040000 0.098000 0.120000))
+      (outline(rect "1#Top" -0.212000 -0.075000 -0.182000 0.075000))
+      (outline(rect "1#Top" 0.182000 -0.075000 0.212000 0.075000))
+      (pin "Oblong3" "1" -0.296000 0.000000)
+      (pin "Oblong3" "2" -0.098000 0.000000)
+      (pin "Oblong3" "3" 0.098000 0.000000)
+      (pin "Oblong3" "4" 0.296000 0.000000)
+    )
+    (image "6PINHEADER$connectors"
+      (pin "Octagon4" "P$1" -0.250000 0.000000)
+      (pin "Octagon4" "P$2" -0.150000 0.000000)
+      (pin "Octagon4" "P$3" -0.050000 0.000000)
+      (pin "Octagon4" "P$4" 0.050000 0.000000)
+      (pin "Octagon4" "P$5" 0.150000 0.000000)
+      (pin "Octagon4" "P$6" 0.250000 0.000000)
+    )
+    (image "DIODEBRIDGE$connectors"
+      (pin "Round14" "+" -0.100000 0.100000)
+      (pin "Round14" "-" 0.100000 -0.100000)
+      (pin "Round14" "AC1" 0.100000 0.100000)
+      (pin "Round14" "AC2" -0.100000 -0.100000)
+    )
+    (image "TRIAC$connectors"
+      (pin "Round15" "1" -0.100000 0.000000)
+      (pin "Round15" "2" 0.000000 0.000000)
+      (pin "Round15" "3" 0.100000 0.000000)
+    )
+    (image "DO35-10$diode"
+      (outline(rect "1#Top" -0.075000 -0.040000 -0.055000 0.040000))
+      (outline(rect "1#Top" 0.090000 -0.010000 0.165000 0.010000))
+      (outline(rect "1#Top" -0.165000 -0.010000 -0.090000 0.010000))
+      (pin "Oblong4" "A" 0.200000 0.000000)
+      (pin "Oblong4" "C" -0.200000 0.000000)
+    )
+    (image "3,6-PAD$holes"
+      (outline(circ "1#Top" 0.270000 0.000000 0.000000))
+      (outline(circ "1#Top" 0.149606 0.000000 0.000000))
+      (place_keepout(circ "1#Top" 0.290000 0.000000 0.000000))
+      (place_keepout(circ "16#Bottom" 0.290000 0.000000 0.000000))
+      (via_keepout(circ signal 0.280000 0.000000 0.000000))
+      (pin "Round16" "B3,6" 0.000000 0.000000)
+    )
+    (image "DIL04$optocoupler"
+      (pin "Offset1" "1" -0.050000 -0.150000)
+      (pin "Offset1" "2" 0.050000 -0.150000)
+      (pin "Offset2" "3" 0.050000 0.150000)
+      (pin "Offset2" "4" -0.050000 0.150000)
+    )
+    (image "DIL06$optocoupler"
+      (pin "Offset1" "1" -0.100000 -0.150000)
+      (pin "Offset1" "2" 0.000000 -0.150000)
+      (pin "Offset1" "3" 0.100000 -0.150000)
+      (pin "Offset2" "4" 0.100000 0.150000)
+      (pin "Offset2" "5" 0.000000 0.150000)
+      (pin "Offset2" "6" -0.100000 0.150000)
+    )
+    (padstack "ViaDefault$0.024000"
+      (shape (circle signal 0.040000 0 0))
+    )
+    (padstack "Round1$0.024000" 
+      (shape (circle "1#Top" 0.040000 0 0))
+      (shape (circle "16#Bottom" 0.040000 0 0))
+      (attach off)
+    )
+    (padstack "Round2" 
+      (shape (circle signal 0.145000 0 0))
+      (attach off)
+    )
+    (padstack "Round3" 
+      (shape (circle signal 0.065000 0 0))
+      (attach off)
+    )
+    (padstack "Square1" 
+      (shape (rect signal -0.032500 -0.032500 0.032500 0.032500))
+      (attach off)
+    )
+    (padstack "Octagon1" 
+      (shape (polygon "1#Top" 0 0.034000 0.014083 0.014083 0.034000 -0.014083 0.034000 -0.034000 0.014083 -0.034000 -0.014083 -0.014083 -0.034000 0.014083 -0.034000 0.034000 -0.014083 ))
+      (shape (polygon "16#Bottom" 0 0.034000 0.014083 0.014083 0.034000 -0.014083 0.034000 -0.034000 0.014083 -0.034000 -0.014083 -0.014083 -0.034000 0.014083 -0.034000 0.034000 -0.014083 ))
+      (attach off)
+    )
+    (padstack "Round4" 
+      (shape (circle signal 0.074000 0 0))
+      (attach off)
+    )
+    (padstack "Square2" 
+      (shape (rect signal -0.037000 -0.037000 0.037000 0.037000))
+      (attach off)
+    )
+    (padstack "Round5" 
+      (shape (circle signal 0.074000 0 0))
+      (attach off)
+    )
+    (padstack "Octagon2" 
+      (shape (polygon "1#Top" 0 0.037000 0.015326 0.015326 0.037000 -0.015326 0.037000 -0.037000 0.015326 -0.037000 -0.015326 -0.015326 -0.037000 0.015326 -0.037000 0.037000 -0.015326 ))
+      (shape (polygon "16#Bottom" 0 0.037000 0.015326 0.015326 0.037000 -0.015326 0.037000 -0.037000 0.015326 -0.037000 -0.015326 -0.015326 -0.037000 0.015326 -0.037000 0.037000 -0.015326 ))
+      (attach off)
+    )
+    (padstack "Round6" 
+      (shape (circle signal 0.162000 0 0))
+      (attach off)
+    )
+    (padstack "Round7" 
+      (shape (circle signal 0.162000 0 0))
+      (attach off)
+    )
+    (padstack "Round8" 
+      (shape (circle signal 0.165984 0 0))
+      (attach off)
+    )
+    (padstack "Oblong1" 
+      (shape (path signal 0.052000 0.000000 -0.026000 0.000000 0.026000))
+      (attach off)
+    )
+    (padstack "Round9" 
+      (shape (circle signal 0.078000 0 0))
+      (attach off)
+    )
+    (padstack "Square3" 
+      (shape (rect signal -0.033000 -0.033000 0.033000 0.033000))
+      (attach off)
+    )
+    (padstack "Round10" 
+      (shape (circle signal 0.066000 0 0))
+      (attach off)
+    )
+    (padstack "Round11" 
+      (shape (circle signal 0.052000 0 0))
+      (attach off)
+    )
+    (padstack "Round12" 
+      (shape (circle signal 0.074000 0 0))
+      (attach off)
+    )
+    (padstack "Oblong2" 
+      (shape (path signal 0.060000 0.000000 -0.030000 0.000000 0.030000))
+      (attach off)
+    )
+    (padstack "Round13" 
+      (shape (circle signal 0.074000 0 0))
+      (attach off)
+    )
+    (padstack "Square4" 
+      (shape (rect signal -0.030000 -0.030000 0.030000 0.030000))
+      (attach off)
+    )
+    (padstack "Octagon3" 
+      (shape (polygon "1#Top" 0 0.033000 0.013669 0.013669 0.033000 -0.013669 0.033000 -0.033000 0.013669 -0.033000 -0.013669 -0.013669 -0.033000 0.013669 -0.033000 0.033000 -0.013669 ))
+      (shape (polygon "16#Bottom" 0 0.033000 0.013669 0.013669 0.033000 -0.013669 0.033000 -0.033000 0.013669 -0.033000 -0.013669 -0.013669 -0.033000 0.013669 -0.033000 0.033000 -0.013669 ))
+      (attach off)
+    )
+    (padstack "Oblong3" 
+      (shape (path signal 0.078000 0.000000 -0.039000 0.000000 0.039000))
+      (attach off)
+    )
+    (padstack "Octagon4" 
+      (shape (polygon "1#Top" 0 0.029685 0.012296 0.012296 0.029685 -0.012296 0.029685 -0.029685 0.012296 -0.029685 -0.012296 -0.012296 -0.029685 0.012296 -0.029685 0.029685 -0.012296 ))
+      (shape (polygon "16#Bottom" 0 0.029685 0.012296 0.012296 0.029685 -0.012296 0.029685 -0.029685 0.012296 -0.029685 -0.012296 -0.012296 -0.029685 0.012296 -0.029685 0.029685 -0.012296 ))
+      (attach off)
+    )
+    (padstack "Round14" 
+      (shape (circle signal 0.051496 0 0))
+      (attach off)
+    )
+    (padstack "Round15" 
+      (shape (circle signal 0.064961 0 0))
+      (attach off)
+    )
+    (padstack "Oblong4" 
+      (shape (path signal 0.052000 -0.026000 0.000000 0.026000 0.000000))
+      (attach off)
+    )
+    (padstack "Round16" 
+      (shape (circle signal 0.230000 0 0))
+      (attach off)
+    )
+    (padstack "Offset1" 
+      (shape (path signal 0.052000 0.000000 -0.052000 0.000000 0.000000))
+      (attach off)
+    )
+    (padstack "Offset2" 
+      (shape (path signal 0.052000 0.000000 0.000000 0.000000 0.052000))
+      (attach off)
+    )
+  )
+  (network
+    (net "A0"
+      (pins  "U1"-"23" "JP5"-"1")
+    )
+    (net "A1"
+      (pins  "U1"-"24" "JP5"-"2")
+    )
+    (net "A2"
+      (pins  "U1"-"25" "JP5"-"3")
+    )
+    (net "A3"
+      (pins  "U1"-"26" "JP5"-"4")
+    )
+    (net "A4"
+      (pins  "U1"-"27" "JP5"-"5")
+    )
+    (net "A5"
+      (pins  "U1"-"28" "JP5"-"6")
+    )
+    (net "D2"
+      (pins  "U1"-"4" "JP1"-"4")
+    )
+    (net "D3"
+      (pins  "U1"-"5" "JP1"-"5")
+    )
+    (net "D4"
+      (pins  "U1"-"6" "JP1"-"6")
+    )
+    (net "D5"
+      (pins  "U1"-"11" "JP2"-"1")
+    )
+    (net "D6"
+      (pins  "U1"-"12" "JP2"-"2")
+    )
+    (net "D7"
+      (pins  "U1"-"13" "JP2"-"3")
+    )
+    (net "D8"
+      (pins  "U1"-"14" "JP2"-"4")
+    )
+    (net "D9"
+      (pins  "U1"-"15" "JP3"-"1")
+    )
+    (net "D10"
+      (pins  "JP3"-"2" "U1"-"16")
+    )
+    (net "DRAIN"
+      (pins  "J1"-"GND")
+    )
+    (net "GND"
+      (pins  "U5"-"3" "SPINDLE"-"2" "U2"-"2" "FTDI"-"P$1" "FTDI"-"P$2" "U1"-"8" "U1"-"22" "C7"-"2" "C6"-"1" "C4"-"1" "C5"-"2" "S1"-"3" "S1"-"4" "J1"-"GNDBREAK" "LED1"-"K" "IC1"-"GND" "C1"-"2" "C2"-"2" "JP4"-"6" "R14"-"P$1" "SENSOR"-"3" "U$1"-"4" "SPEED"-"3")
+    )
+    (net "MAINS_LIVE"
+      (pins  "C8"-"1" "U3"-"2" "R5"-"P$2" "BR41"-"AC1" "MAINS1"-"1")
+    )
+    (net "MISO"
+      (pins  "U1"-"18" "JP4"-"1" "JP3"-"4")
+    )
+    (net "MOSI"
+      (pins  "U1"-"17" "JP4"-"4" "JP3"-"3")
+    )
+    (net "MOTOR_LIVE"
+      (pins  "U3"-"3" "R4"-"P$1" "MAINS1"-"4")
+    )
+    (net "N$1"
+      (pins  "U2"-"4" "U4"-"C")
+    )
+    (net "N$2"
+      (pins  "SPEED"-"1" "R10"-"P$2")
+    )
+    (net "N$3"
+      (pins  "U4"-"A" "U3"-"1")
+    )
+    (net "N$4"
+      (pins  "LED1"-"A" "R1"-"P$1")
+    )
+    (net "N$5"
+      (pins  "C8"-"2" "R4"-"P$2")
+    )
+    (net "N$6"
+      (pins  "R8"-"P2" "U5"-"1" "R7"-"P1")
+    )
+    (net "N$7"
+      (pins  "BR41"-"-" "U5"-"2" "LED2"-"K")
+    )
+    (net "N$8"
+      (pins  "R8"-"P1" "LED2"-"A")
+    )
+    (net "N$9"
+      (pins  "H6"-"B3,6")
+    )
+    (net "N$12"
+      (pins  "SPINDLE"-"1" "R13"-"P$1")
+    )
+    (net "N$13"
+      (pins  "U2"-"1" "R6"-"P$1")
+    )
+    (net "N$14"
+      (pins  "FTDI"-"P$3" "D3"-"A")
+    )
+    (net "N$15"
+      (pins  "U2"-"6" "R5"-"P$1")
+    )
+    (net "N$16"
+      (pins  "SENSOR"-"2" "R14"-"P$2")
+    )
+    (net "N$17"
+      (pins  "SENSOR"-"4" "U$1"-"3" "R16"-"P$2" "R17"-"3" "C3"-"1")
+    )
+    (net "N$18"
+      (pins  "H8"-"B3,6")
+    )
+    (net "N$19"
+      (pins  "H7"-"B3,6")
+    )
+    (net "N$20"
+      (pins  "U1"-"10" "C7"-"1" "Y1"-"1" "R3"-"P$1")
+    )
+    (net "N$21"
+      (pins  "H5"-"B3,6")
+    )
+    (net "N$22"
+      (pins  "U1"-"9" "R3"-"P$2" "C6"-"2" "Y1"-"2")
+    )
+    (net "N$24"
+      (pins  "R15"-"P$1" "LED3"-"A")
+    )
+    (net "N$25"
+      (pins  "D1"-"C" "IC1"-"IN" "C1"-"1")
+    )
+    (net "N$26"
+      (pins  "D1"-"A" "J1"-"PWR")
+    )
+    (net "N$27"
+      (pins  "C3"-"2" "U$1"-"2" "R17"-"2")
+    )
+    (net "N$28"
+      (pins  "U1"-"21" "C4"-"2")
+    )
+    (net "N$29"
+      (pins  "BR41"-"+" "R7"-"P2")
+    )
+    (net "NEUTRAL"
+      (pins  "BR41"-"AC2" "MAINS1"-"2" "MAINS1"-"3")
+    )
+    (net "RESET"
+      (pins  "FTDI"-"P$6" "U1"-"1" "R2"-"P$2" "D2"-"A" "S1"-"1" "S1"-"2" "JP4"-"5" "JP1"-"1")
+    )
+    (net "RX"
+      (pins  "U1"-"2" "FTDI"-"P$4" "JP1"-"2")
+    )
+    (net "SCK"
+      (pins  "U1"-"19" "JP4"-"3" "JP3"-"5")
+    )
+    (net "SENSOR"
+      (pins  "U$1"-"1" "LED3"-"K" "JP10"-"2")
+    )
+    (net "SPEED"
+      (pins  "SPEED"-"2" "JP8"-"2")
+    )
+    (net "SPINDLE-ON"
+      (pins  "R13"-"P$2" "JP9"-"2")
+    )
+    (net "TRIAC"
+      (pins  "R6"-"P$2" "JP7"-"2")
+    )
+    (net "TX"
+      (pins  "U1"-"3" "FTDI"-"P$5" "JP1"-"3")
+    )
+    (net "VCC"
+      (pins  "R9"-"P$2" "R2"-"P$1" "D2"-"C" "U1"-"7" "U1"-"20" "C5"-"1" "IC1"-"OUT" "C2"-"1" "R1"-"P$2" "JP4"-"2" "D3"-"C" "SENSOR"-"1" "U$1"-"8" "R15"-"P$2" "R16"-"P$1" "R17"-"1" "R10"-"P$1")
+    )
+    (net "ZEROCROSS"
+      (pins  "U5"-"4" "R9"-"P$1" "JP6"-"2")
+    )
+    (class "power"
+      
+      (rule
+        (width 0.040000)
+        (clearance 0.012000)
+      )
+    )
+  )
+  (wiring
+    (wire
+      (poly "16#Bottom"  0.016000 3.990000 0.010000 3.990000 1.500000 0.015000 1.500000 0.015000 0.015000) 
+      (net "GND")
+    )
+  )
+)
